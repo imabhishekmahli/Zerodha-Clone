@@ -1,5 +1,5 @@
 *{
-    height: 100%;
+    
     width: 100%;
     padding: 0;
     margin: 0;
@@ -8,6 +8,7 @@
 .nav{
     display: flex;
     height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navop{
@@ -30,4 +31,43 @@
     border-style: none;
     font-weight: 400;
     overflow-clip-margin: content-box;
+}
+
+.bodyimg{
+    margin: 70px;
+    height: 360px;
+    width: 850px;
+    margin-left: 420px;
+}
+
+.text{
+    text-align: center;
+    font-family: "inter", serif;
+    color: #424242;
+    font-size: 25px;
+}
+
+.h1{
+    margin-bottom: 15px;
+}
+
+.siginbutton{
+    margin-top: 25px;
+    width: 200px;
+    margin-left: 730px;
+    padding: 10px;
+}
+
+.button{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    background-color: #4c78f0;
+    color: white;
+    display: block;
+    margin-block-start: 1.8em;
+    margin-block-end: 1.6em;
+    font-family: "inter", serif;
+    text-decoration: none;
 }
