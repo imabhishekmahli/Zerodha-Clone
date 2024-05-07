@@ -1,4 +1,13 @@
-.nav{
-    display: flex;
-    justify-content: space-between;
+.navbar{
+    cursor: pointer;
+    
+}
+
+a{
+    color: rgb(96, 95, 95);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(97, 97, 244);
 }
